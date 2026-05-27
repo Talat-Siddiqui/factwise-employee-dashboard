@@ -33,6 +33,10 @@ Open http://localhost:5173
 ## Screenshots
 
 Desktop and mobile screenshots are attached.
+
+[Screencast from 2026-05-27 20-40-57.webm](https://github.com/user-attachments/assets/472c3098-2e31-4ca3-a38d-93a16bd6e9e5)
+
+
 <img width="1844" height="999" alt="Screenshot from 2026-05-27 19-46-53" src="https://github.com/user-attachments/assets/a789bc9e-1bff-4f99-86d5-6b6fe9af4eff" />
 
 <img width="1844" height="999" alt="Screenshot from 2026-05-27 19-47-32" src="https://github.com/user-attachments/assets/3ad89311-4a4b-4382-9233-e028559e9d20" />
