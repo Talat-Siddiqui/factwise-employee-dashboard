@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #f5f6fa;
+  color: #1a1d23;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ─── AG Grid light theme overrides ─────────────────────────── */
+
+.ag-theme-alpine {
+  --ag-background-color: #ffffff;
+  --ag-header-background-color: #f8f9fc;
+  --ag-odd-row-background-color: #ffffff;
+  --ag-row-hover-color: #f0f2ff;
+  --ag-border-color: #e4e7f0;
+  --ag-header-foreground-color: #6b7280;
+  --ag-foreground-color: #374151;
+  --ag-font-family: 'Inter', sans-serif;
+  --ag-font-size: 13px;
+  --ag-row-border-color: #f0f1f5;
+  --ag-selected-row-background-color: #eef0ff;
+  --ag-checkbox-checked-color: #4f46e5;
+  --ag-input-focus-border-color: #4f46e5;
+  --ag-cell-horizontal-padding: 14px;
+  --ag-header-column-separator-display: none;
+}
+
+.ag-theme-alpine .ag-header-cell-label {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.ag-theme-alpine .ag-cell {
+  display: flex;
+  align-items: center;
+}
+
+.ag-theme-alpine .ag-paging-panel {
+  background-color: #f8f9fc;
+  border-top: 1px solid #e4e7f0;
+  color: #9ca3af;
+  font-size: 12px;
+}
+
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #9ca3af; }
